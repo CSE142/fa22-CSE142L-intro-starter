@@ -39,10 +39,10 @@ namespace Tests {
 
 	TEST_P(NibbleTestFixtureSmallDouble, simple_tests) {
 		
-		uint16_t target = std::get<0>(GetParam());
+		uint16_t target  = std::get<0>(GetParam());
 		uint16_t target2 = std::get<1>(GetParam());
-		uint64_t query  = std::get<2>(GetParam());
-		uint64_t answer = std::get<3>(GetParam());
+		uint64_t query   = std::get<2>(GetParam());
+		uint64_t answer  = std::get<3>(GetParam());
 		
 		std::vector<uint16_t> v{ target, target2 };
 		auto computed = nibble_search(query, v);
