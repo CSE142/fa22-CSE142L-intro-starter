@@ -26,7 +26,6 @@ include  /cse142L/cfiddle/src/cfiddle/resources/make/cfiddle.make
 include /cse142L/cse141pp-archlab/cse141.make
 
 .PHONY: autograde
-
 autograde: regressions.json autograde.csv
 
 $(BUILD)/run_tests.o: hidden_tests.cpp
