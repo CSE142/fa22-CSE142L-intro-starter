@@ -1,5 +1,3 @@
- 
-// This file was written by cfiddle.  It's likely that it'll get overwritten in the future, so any edits you make are likely to be lost.
 
 #include <vector>
 #include <iostream>
@@ -20,3 +18,4 @@ extern "C" uint64_t nibble_search(uint8_t query, const std::vector<uint16_t> & t
     return count;
 }
 
+// Cfiddle-signature=58b10cd517e64e29d69e3a55b1320442
